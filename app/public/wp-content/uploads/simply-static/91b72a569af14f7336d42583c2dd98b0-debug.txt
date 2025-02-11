@@ -1,0 +1,940 @@
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-02-11 01:19:01] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-02-11 01:19:01] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741\
+[2025-02-11 01:19:01] [class-ss-setup-task.php:72] Adding origin URL to queue: http://coffee-road.local/
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 01:19:01] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 01:19:01] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-02-11 01:19:01] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/
+[2025-02-11 01:19:01] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-02-11 01:19:01] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:01] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa585ab8fb-D4Ae60.tmp
+[2025-02-11 01:19:01] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/?simply_static_page=1
+[2025-02-11 01:19:01] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/?simply_static_page=1
+[2025-02-11 01:19:10] [class-ss-url-fetcher.php:103] Filesize: 161610 bytes
+[2025-02-11 01:19:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-02-11 01:19:10] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-02-11 01:19:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa585ab8fb-D4Ae60.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/index.html
+[2025-02-11 01:19:10] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:11] [class-ss-fetch-urls-task.php:158] Adding 59 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:903186558baac2adce53a8e7f87cd3cb76a02641===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-02-11 01:19:12] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-11 01:19:12] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 01:19:12] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:69] Total pages: 59; Pages remaining: 58
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5901532b-mQTdll.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01.jpg?simply_static_page=2
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01.jpg?simply_static_page=2
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 40615 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_01.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5901532b-mQTdll.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_01.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:f856143c66d66004d4d0e6d624fac136a86ec59a===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5901f4ce-EBdtHV.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02.jpg?simply_static_page=3
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02.jpg?simply_static_page=3
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 58487 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_02.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5901f4ce-EBdtHV.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_02.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:68c5f8e5a930a6b7afa3b712d7dcf62a41732b57===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590253c8-m76yTE.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03.jpg?simply_static_page=4
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03.jpg?simply_static_page=4
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 49269 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_03.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590253c8-m76yTE.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_03.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:2de97c0e9e85c064867c490711e9310202437e50===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5902d343-UftQIY.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04.jpg?simply_static_page=5
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04.jpg?simply_static_page=5
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 33049 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_04.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5902d343-UftQIY.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_04.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:5e3b9b5b8551a6f1d3b0a84541f7584dbb150718===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5903b2f7-GSfFZn.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11.jpg?simply_static_page=6
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11.jpg?simply_static_page=6
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 63710 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_11.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5903b2f7-GSfFZn.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_11.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:b72d985efbce77db996f0fa62df35a28eed89180===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59045cf5-4CgPbh.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg?simply_static_page=7
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg?simply_static_page=7
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 31853 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59045cf5-4CgPbh.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:79cd7c8682cc3c87739e901ca0a13621cf715da9===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59050822-kMM066.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10.jpg?simply_static_page=8
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10.jpg?simply_static_page=8
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 198475 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_10.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59050822-kMM066.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_10.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:6e654799ec05072894f81369ef84bb4f477a9f33===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5905aa5e-dyVtpw.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg?simply_static_page=9
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg?simply_static_page=9
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 67297 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5905aa5e-dyVtpw.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:5f171f4aa792c1b3be77234bf216a5802226d4e5===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590633e6-BFJ0tR.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06.jpg?simply_static_page=10
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06.jpg?simply_static_page=10
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 25838 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_06.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590633e6-BFJ0tR.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_06.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:a1f4a38fa609bab6c61ebd8ce2a571d27ecc95c1===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59073241-Vi3dqs.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg?simply_static_page=11
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg?simply_static_page=11
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 21340 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59073241-Vi3dqs.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:f8a457d6c22fcf46b377cf79c7d4ff16db87f6ae===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_22@2x.png
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5907effe-g8DfO3.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_22@2x.png?simply_static_page=12
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_22@2x.png?simply_static_page=12
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 1964 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/Coffee_Shop_22@2x.png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5907effe-g8DfO3.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/Coffee_Shop_22@2x.png
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:74a34fb4ff833e4df22fc3fe7af7c67d09e52f2d===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5908b914-9deydp.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg?simply_static_page=13
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg?simply_static_page=13
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 31085 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5908b914-9deydp.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:fde6d056fa3c98b7d81d1e7fc220080f18d1b868===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59097747-zHorXW.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg?simply_static_page=14
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg?simply_static_page=14
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 37621 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59097747-zHorXW.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:fe4ee01501cd6a41b0f9a9eac0e48aad57a70081===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590a0124-yeBOZA.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg?simply_static_page=15
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg?simply_static_page=15
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 41925 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590a0124-yeBOZA.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:702f3878b1ab7937506fef190eaee3a4a327262f===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590afea0-NvDUEZ.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg?simply_static_page=16
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg?simply_static_page=16
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 26361 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590afea0-NvDUEZ.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:6e8a07f94e013c5c24ff68717de07d16d4d02d32===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white.png
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590c0cab-IUXnsu.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white.png?simply_static_page=17
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white.png?simply_static_page=17
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 6253 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/divi-logo-mark-white.png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590c0cab-IUXnsu.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/divi-logo-mark-white.png
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:da0500f8b8f00cdaf88b6af6e4958f672ba4db06===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590cb634-5Ftox4.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png?simply_static_page=18
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png?simply_static_page=18
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 10510 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590cb634-5Ftox4.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:c673b9f7c70db53d20fc56d5e3351160a68912e6===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590d993a-0TA3dc.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png?simply_static_page=19
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png?simply_static_page=19
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 4381 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590d993a-0TA3dc.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:12] [class-ss-page.php:119] Checking Content Identical:6d0465aa5eed672e584991b30533acba8805c602===. Value: FALSE
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-includes/js/jquery/jquery.min.js
+[2025-02-11 01:19:12] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 59
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa590e5030-BZBGmc.tmp
+[2025-02-11 01:19:12] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=20
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=20
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2025-02-11 01:19:12] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa590e5030-BZBGmc.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-includes/js/jquery/jquery.min.js
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:12] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5910ea59-jJojWm.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=21
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=21
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5910ea59-jJojWm.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59121cde-2xMFkg.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=22
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=22
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 274335 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59121cde-2xMFkg.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:cb2199a64629ba9f207d1764603b5bd81b71e3cb===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5914788f-G6zKr7.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=23
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=23
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5914788f-G6zKr7.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591550e3-Bv5Zvq.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?simply_static_page=24
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js?simply_static_page=24
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 10776 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591550e3-Bv5Zvq.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:b0abbeb248e33037e8739760c7248326142c0399===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59161c3a-Nv2Wt8.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=25
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=25
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59161c3a-Nv2Wt8.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5916b186-eXIgEN.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js?simply_static_page=26
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js?simply_static_page=26
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 22272 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5916b186-eXIgEN.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:a80ea4ecec08eaae565fa5eb7491f58a9a59fa9d===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59181963-oDT2O3.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js?simply_static_page=27
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js?simply_static_page=27
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 157954 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59181963-oDT2O3.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:1cdf0a4a508c3645b5db10d4b0ffc076540e2386===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_07-1.jpg
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591a219e-xrO1Jg.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_07-1.jpg?simply_static_page=28
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_07-1.jpg?simply_static_page=28
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 38433 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_07-1.jpg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591a219e-xrO1Jg.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_07-1.jpg
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:7f03c1ef8ade313c140f1fc4752a1da470c68983===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_08.jpg
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591ae260-RQV2Fw.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_08.jpg?simply_static_page=29
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_08.jpg?simply_static_page=29
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 166336 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_08.jpg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591ae260-RQV2Fw.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_08.jpg
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:c01e0feda6365948e908a7a1689bba02659741d7===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_05-1.jpg
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591b823b-Ebauro.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_05-1.jpg?simply_static_page=30
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/caffee_shop_05-1.jpg?simply_static_page=30
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 83100 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/caffee_shop_05-1.jpg
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591b823b-Ebauro.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/caffee_shop_05-1.jpg
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:07c660705787e83c6393da08ceaa2ed2129e7578===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/xmlrpc.php
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/xmlrpc.php
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/feed/
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/feed/
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/comments/feed/
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/comments/feed/
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591cdd47-U4t70a.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=34
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/et-cache/11/et-divi-dynamic-11.css?simply_static_page=34
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:103] Filesize: 27414 bytes
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/11/et-divi-dynamic-11.css
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591cdd47-U4t70a.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/et-cache/11/et-divi-dynamic-11.css
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:13] [class-ss-page.php:119] Checking Content Identical:5534840dedef988bb9212345ff98f5cd23176af1===. Value: FALSE
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-json/
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/wp-json/
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-json/wp/v2/pages/11
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/wp-json/wp/v2/pages/11
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-json/oembed/1.0/embed
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://coffee-road.local/wp-json/oembed/1.0/embed
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 01:19:13] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 59
+[2025-02-11 01:19:13] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa591f2618-0v2c8T.tmp
+[2025-02-11 01:19:13] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=38
+[2025-02-11 01:19:13] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=38
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 114706 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa591f2618-0v2c8T.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:dc3b1a37381e079fda8db59c1a9469852cd18b80===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592167a8-IItE15.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=39
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=39
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592167a8-IItE15.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5921d3bb-7eRLik.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=40
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=40
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 92172 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5921d3bb-7eRLik.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:e5d608e4fb41fe9e03711c783bb688fae802d200===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59228b8d-Yl16kO.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=41
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=41
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 92084 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59228b8d-Yl16kO.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:5b1d3cd0929108da4b6334c4a487db08c9520f1d===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59237b09-29SJgE.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=42
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=42
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 92008 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59237b09-29SJgE.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:bb71ed68296fff023bc54673c7f16c594d29be2c===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59242a58-NGJNMv.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=43
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=43
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 299189 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59242a58-NGJNMv.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:76ca6e283d5dc7cbd0fed07468c9aa76dce22009===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592633f0-g8wxy2.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?simply_static_page=44
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot?simply_static_page=44
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 34350 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592633f0-g8wxy2.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:2baa9a8aa68f1d2d4712b3c7205f9105aaf21879===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5926d7b6-ab0Jh5.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2?simply_static_page=45
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2?simply_static_page=45
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 13548 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5926d7b6-ab0Jh5.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:fb9648469530a05fa9aac80e47d4d6960472a242===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592760e8-Zxso0s.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff?simply_static_page=46
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff?simply_static_page=46
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 16772 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592760e8-Zxso0s.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:26afc29d39ab9fac6d0b607be7e76db093ff7c3a===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5927e897-UItaKl.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf?simply_static_page=47
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf?simply_static_page=47
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 34052 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5927e897-UItaKl.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:d64e58981a419de52bac110c979887d34e366135===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592873c0-AZxnbt.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg?simply_static_page=48
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg?simply_static_page=48
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 144714 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592873c0-AZxnbt.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:71774e5ffbbf58d33ddec24fe7cc6d4d76a7fc38===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592ab96b-XwmseW.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?simply_static_page=49
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot?simply_static_page=49
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 204814 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592ab96b-XwmseW.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:c39b89f7fa7b66931ab02a54002db5ffcbff206c===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592bd64a-0Qq2qC.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2?simply_static_page=50
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2?simply_static_page=50
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 80300 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592bd64a-0Qq2qC.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:9b592048b9062b00f0b2dd782d70a95b7dc69b83===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592c95a4-UcFMo0.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff?simply_static_page=51
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff?simply_static_page=51
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 104280 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592c95a4-UcFMo0.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:3b86a0ce15d8d534b65e98560e321a933d310688===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 59 pages/files
+[2025-02-11 01:19:14] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-11 01:19:14] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 01:19:14] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:69] Total pages: 59; Pages remaining: 8
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592d7143-PMkJ5H.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf?simply_static_page=52
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf?simply_static_page=52
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 204528 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592d7143-PMkJ5H.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:14] [class-ss-page.php:119] Checking Content Identical:d537bf4cc7273ddb3fd754d53f2b241aeafaefe7===. Value: FALSE
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2025-02-11 01:19:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 59
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa592e06eb-PyyRj7.tmp
+[2025-02-11 01:19:14] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg?simply_static_page=53
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg?simply_static_page=53
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:103] Filesize: 917575 bytes
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2025-02-11 01:19:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa592e06eb-PyyRj7.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2025-02-11 01:19:14] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:e61916fb8ca96b984d70bc1274ccbffc2225c016===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5932ad25-XcTN8a.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?simply_static_page=54
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot?simply_static_page=54
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 136822 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5932ad25-XcTN8a.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:c719f4375679ee58e156434f9ba9727be669cf07===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa59336488-wRbkzu.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2?simply_static_page=55
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2?simply_static_page=55
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 78460 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa59336488-wRbkzu.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:f726c4275bb494a045fde059175f072de06c01df===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5933f256-iAuPVY.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff?simply_static_page=56
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff?simply_static_page=56
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 92136 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5933f256-iAuPVY.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:a42ac4a94f4e0e9333cdb1b2fb6c13c0ae690ff2===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5934fb0e-bCWTbt.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf?simply_static_page=57
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf?simply_static_page=57
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 136516 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5934fb0e-bCWTbt.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:9b49c6c5b0cbdef158ae31b2a4e4814555408389===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5935adce-s9V3PZ.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg?simply_static_page=58
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg?simply_static_page=58
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 747545 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5935adce-s9V3PZ.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:63c762983ffe489e2a16ce4e97e020fd5251eca9===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:72] URL: http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_18.jpg
+[2025-02-11 01:19:15] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 59
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5938ef16-OVx4JA.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_18.jpg?simply_static_page=59
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/wp-content/uploads/2025/02/Coffee_Shop_18.jpg?simply_static_page=59
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 113138 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/02/Coffee_Shop_18.jpg
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5938ef16-OVx4JA.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741/wp-content/uploads/2025/02/Coffee_Shop_18.jpg
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:151] Extracting URLs and replacing URLs in the static file
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:158] Adding 0 URLs to the queue
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:169] We're saving this URL; keeping the static file
+[2025-02-11 01:19:15] [class-ss-page.php:119] Checking Content Identical:4c2b67dd9548c346abaffdfb6734d04f4243a86d===. Value: FALSE
+[2025-02-11 01:19:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 59 pages/files
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-02-11 01:19:15] [class-ss-fetch-urls-task.php:69] Total pages: 59; Pages remaining: 0
+[2025-02-11 01:19:15] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 59 of 59 pages/files
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:204] We've found our next task: generate_404
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:172] Current task: generate_404
+[2025-02-11 01:19:15] [class-ss-archive-creation-job.php:182] Performing task: generate_404
+[2025-02-11 01:19:15] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67aaa5939d74f-J2aQ7O.tmp
+[2025-02-11 01:19:15] [class-ss-page-handler.php:38] URL Prepared:http://coffee-road.local/1739236756?simply_static_page=0
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:251] Fetching URL: http://coffee-road.local/1739236756?simply_static_page=0
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:103] Filesize: 58590 bytes
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2025-02-11 01:19:15] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67aaa5939d74f-J2aQ7O.tmp to C:\Users\stefa\Local Sites\coffee-road\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1739236741\404/index.html
+[2025-02-11 01:19:15] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2025-02-11 01:19:16] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2025-02-11 01:19:16] [class-ss-page.php:119] Checking Content Identical:09e157350410f0a6aed1c073bad6fc41316d70c8===. Value: FALSE
+[2025-02-11 01:19:16] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2025-02-11 01:19:16] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-02-11 01:19:16] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-02-11 01:19:16] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-02-11 01:19:16] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:131] Cannot copy C:/Users/stefa/Local Sites/coffee-road/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1739236741/index.html to /index.html
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_01.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_02.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_03.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_04.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_11.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_11-480x690.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_10.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_10-480x690.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_06.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_06-480x432.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/Coffee_Shop_22@2x.png
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_01-480x476.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_02-480x476.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_03-480x476.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_04-480x476.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/divi-logo-mark-white.png
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/divi-logo-mark-white-300x300.png
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/divi-logo-mark-white-150x150.png
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery.min.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/js/jquery
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/jquery/jquery-migrate.min.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/js/jquery
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/js/scripts.min.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.mobile.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/js/common.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/magnific-popup.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/motion-effects.js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_07-1.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_08.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/caffee_shop_05-1.jpg
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:16] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/et-cache/11/et-divi-dynamic-11.css
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/et-cache/11
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-includes/css/dist/block-library
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/includes/builder/styles/images
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/all
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/all
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/all
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/modules/all
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.eot
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff2
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.woff
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.ttf
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-regular-400.svg
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.eot
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff2
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.woff
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.ttf
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-solid-900.svg
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.eot
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff2
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.woff
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:53. Processed Pages: 50
+[2025-02-11 01:19:17] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 53 files
+[2025-02-11 01:19:17] [trait-can-process-pages.php:112] Total pages: 53; Pages remaining: 3
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:212] We're not done with the transfer_files_locally task yet
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.ttf
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/Divi/core/admin/fonts/fontawesome/fa-brands-400.svg
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/themes/Divi/core/admin/fonts/fontawesome
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/02/Coffee_Shop_18.jpg
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: /wp-content/uploads/2025/02
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:53. Processed Pages: 53
+[2025-02-11 01:19:17] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 53 of 53 files
+[2025-02-11 01:19:17] [trait-can-process-pages.php:112] Total pages: 53; Pages remaining: 0
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:217] Destination 404 Page found at \404\index.html
+[2025-02-11 01:19:17] [class-ss-transfer-files-locally-task.php:221] Success
+[2025-02-11 01:19:17] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://stefanoturcarelli.github.io/coffee-road/" target="_blank">https://stefanoturcarelli.github.io/coffee-road/</a>
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-02-11 01:19:17] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2025-02-11 01:19:17] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-02-11 01:19:17] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:16
